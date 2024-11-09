@@ -74,7 +74,7 @@ function Root() {
       </div>
       <h1>Alloy + ICP</h1>
       <div>
-        Watch whales on Base Mainnet that trasfer more than 500.000 USDC
+        Watch whales on Base Mainnet that trasfer more than 1.000.000 USDC
       </div>
 
       <>

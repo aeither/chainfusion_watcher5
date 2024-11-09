@@ -81,7 +81,7 @@ async fn watch_usdc_transfer_start() -> Result<String, String> {
                     &to.to_string()[2..5],
                     &to.to_string()[to.to_string().len() - 3..]
                 );
-                if value > &U256::from(500_000_000_000u64) {
+                if value > &U256::from(1_000_000_000_000u64) {
                     state
                         .logs
                         .push(format!("{from_fmt} -> {to_fmt}, value: {value:?}"));
